@@ -6,17 +6,25 @@ import Bedroom from "./Bedroom"
 function FloorPlan(props) {
     return (
       <>
-      <div className="FloorPlan">
+      <div className="Kitchen">
       < Kitchen/>
       </div>
-      <div className="FloorPlan">
-      < Bath/>
+      <div className="Bath">
+      < Bath size="Half"/>
       </div>
-      <div className="FloorPlan">
+      <div className="LivingRoom">
       < LivingRoom/>
       </div>
-      <div className="FloorPlan">
-      < Bedroom/>
+      <div className="Bedroom">
+      < Bedroom bedNum={1}/> 
+      </div>   
+      <div className="Bedroom">
+      < Bedroom bedNum={2}/> 
+      </div>
+      <div className="Bedroom">
+      < Bedroom bedNum={3}/> 
+      </div><div className="Bath">
+      < Bath size="Full"/>
       </div>
       </>
     );

@@ -1,12 +1,16 @@
 // CodeSandbox.js
 
+
+ 
+
 function Bedroom(props) {
+  console.log(props);
     return (
-      <div>
-        <h1>Bedroom</h1>
-      </div>
-    );
+     <h1> Bedroom {props.bedNum} </h1>
+    )
   }
+
+
   
   // Must export the component's function (or class)
   export default Bedroom;
