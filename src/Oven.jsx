@@ -3,7 +3,7 @@
 function Oven(props) {
     return (
       <div>
-        <h1>Oven</h1>
+        <h1> {props.oven} </h1>
       </div>
     );
   }

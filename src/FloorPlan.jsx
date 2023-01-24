@@ -1,7 +1,7 @@
 import Kitchen from "./Kitchen";
 import Bath from "./Bath";
 import LivingRoom from "./LivingRoom"
-import Bedroom from "./Bedroom"
+import Bedroom from "./Bedroom" 
 
 function FloorPlan(props) {
     return (

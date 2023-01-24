@@ -6,10 +6,10 @@ function Kitchen(props) {
       <>
         <h1>Kitchen</h1>
         <div className="Kitchen">
-      < Oven/>
+      < Oven oven="Oven" />
       </div>
       <div className="Kitchen">
-      < Sink/>
+      < Sink sink="Sink"/>
       </div>
       </>
     );
