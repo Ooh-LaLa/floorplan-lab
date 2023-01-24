@@ -2,9 +2,7 @@
 
 function Oven(props) {
     return (
-      <div>
         <h1> {props.oven} </h1>
-      </div>
     );
   }
   
